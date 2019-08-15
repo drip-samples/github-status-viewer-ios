@@ -7,7 +7,6 @@ target 'GithubStatusViewer' do
   pod 'APIKit', '~> 3.1'
   pod 'RxSwift', '~> 4'
   pod 'RxCocoa', '~> 4'
-  pod 'RealmSwift'
 
   target 'GithubStatusViewerTests' do
     inherit! :search_paths
